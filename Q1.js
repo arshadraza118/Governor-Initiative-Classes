@@ -7,24 +7,24 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-// question no 1
+// question no 2
 var Name = "Arshad";
 console.log("Hello ".concat(Name, ", would you like to learn some Python today?"));
-// question no 2
+// question no 3
 console.log(Name.toUpperCase());
 console.log(Name.toLowerCase());
 // console.log(Name.t);
-// Question no.3
+// Question no.4
 var quote = "I don't believe in quotes, because my life depends upon me not in other's wording";
 var author = "Arshad Raza";
-// Question no.3
+// Question no.5
 var famous_person = "Winston Churchill";
 var message = "".concat(famous_person, " once said, \"I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.\"");
 console.log(message);
-// Question no.3
+// Question no.6
 var formattedString = "First line\tTab\nThird line";
 console.log(formattedString);
-// Question no.3
+// Question no.7
 // Addition
 console.log("Addition:");
 console.log("5 + 3 = ".concat(5 + 3));
@@ -42,11 +42,11 @@ console.log(5 + 3);
 console.log(10 - 2);
 console.log(4 * 2);
 console.log(16 / 2);
-// Question no.3
+// Question no.8
 var favoriteNumber = 7;
 var message2 = "My favorite number is ".concat(favoriteNumber, ".");
 console.log(message2);
-// Question no.3
+// Question no.9
 // programming for fun
 /* Name: Arshad Raza
 Date: 25/02/2024*/
@@ -57,13 +57,13 @@ if (comment == true) {
 else {
     console.log("I am failed");
 }
-// Question no.3
+// Question no.10
 var friends = ["Asif", "Ali", "Akmal", "Navaid"];
 console.log(friends[0]);
 console.log(friends[1]);
 console.log(friends[2]);
 console.log(friends[3]);
-// Question no.3
+// Question no.11
 var friends1 = ["Asif", "Ali", "Akmal", "Navaid"];
 var greeting = "hello ,";
 for (var _i = 0, friends1_1 = friends1; _i < friends1_1.length; _i++) {
@@ -71,18 +71,18 @@ for (var _i = 0, friends1_1 = friends1; _i < friends1_1.length; _i++) {
     console.log(greeting + names);
 }
 ;
-// Question no.3
+// Question no.12
 var favTransport = ["bike", "car", "aeroplane"];
 var favState = ["I like to ride ", "I will buy a ", "i will fly in "];
 console.log(favState[0] + favTransport[0]);
 console.log(favState[1] + favTransport[1]);
 console.log(favState[2] + favTransport[2]);
-// Question no.3
+// Question no.13
 var guestName = ["Asif", "Ali", "Akmal", "Navaid"];
 for (var guest in guestName) {
     console.log("Dear ".concat(guestName[guest], ", you are invited for dinner."));
 }
-// Question no.3
+// Question no.14
 guestName.pop();
 guestName.push("arshad");
 console.log(guestName);
@@ -90,7 +90,7 @@ for (var guest in guestName) {
     console.log("Dear ".concat(guestName[guest], ", you are invited for dinner."));
 }
 ;
-// Question no.3
+// Question no.15
 // Inform about the bigger dinner table
 console.log("\nGood news! We found a bigger dinner table.");
 // Add one new guest to the beginning of the array
@@ -148,35 +148,37 @@ console.log(visitPlaces);
 console.log("\nAlphabetical Order (sorted):");
 visitPlaces.sort();
 console.log(visitPlaces);
-// Question no.3
+// Question no.16
 console.log("Number of places in list:", visitPlaces.length);
-// Question no.3
+// Question no.17
 var mountain = ["Everest", "K2", "Lhotse", "Manaslu"];
 console.log("\nList of Mountains");
 console.log(mountain);
-// Question no.3
+// Question no.18
 //data of student 1
-var student = { Name: "arshad",
+var student = {
+    Name: "arshad",
     Class: 14,
     age: 22,
     attendenceOfToday: true,
 };
 //data of student 2
-var student1 = { Name: "asif",
+var student1 = {
+    Name: "asif",
     Class: 12,
     age: 22,
     attendenceOfToday: false,
 };
 console.log(student);
 console.log(student1);
-// Question no.3
+// Question no.19
 var numbers = [1, 2, 3, 4, 5];
 // Accessing an element at an out-of-bounds index
 console.log(numbers[10]);
 // Trying to access element at index 10, which doesn't exist
 // Accessing an element at a valid index
 console.log(numbers[2]); // Accessing element at index 2, which exists
-// Question no.3
+// Question no.20
 var student2 = "present";
 console.log("Is student2== present?I pridicted true.");
 console.log(student2 == "present");
